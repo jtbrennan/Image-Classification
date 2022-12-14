@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recognizer.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    <script src="recognizer.js" defer></script>
+    <title>Image Predictor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-top">
+            <img class="thumbnail" src="images/bird.jpg">
+            <img class="thumbnail" src="images/bird1.jpg">
+            <img class="thumbnail" src="images/cat1.jpg">
+            <img class="thumbnail" src="images/cow.jpg">
+            <img class="thumbnail" src="images/zebra.jpg">
+            <img class="thumbnail" src="images/monkey1.jpg">
+            <img class="thumbnail" src="images/daniel.jpg">
+        </div>
+        <div class="container-bottom">
+            <img class="main" src="../images/dog.jpg">
+            <div class="output">
+                <h1>Results</h1>
+                <h1><span id="result">Click the thumbnail above to see the predictor in action ...</span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Facilitator: Mehrdad Tirandazian mtirandazian@centennialcollege.ca</p>
+    </footer>
+    
+</body>
+</html

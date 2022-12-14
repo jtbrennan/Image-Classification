@@ -1,0 +1,62 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: red;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+}
+.container{
+    align-content: center;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container .container-top .thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+.main {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    padding: 2px;
+    box-shadow: 5px 5px 15px black;
+}
+h1{
+    font-size: 0.75em;
+}
+.container-bottom{
+    display: flex;
+}
+.output{
+    margin-left: 25px;
+}
+#result li{
+    /* font-family: cursive; */
+    font-weight: 400;
+}
+footer{
+    position: absolute;
+    margin: 3px;
+    bottom: 0;
+}
+footer p {
+    font-size: 0.5em;
+    font-weight: 900%;
+}
+
+

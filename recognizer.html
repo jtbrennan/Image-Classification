@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recognizer.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    <script src="recognizer.js" defer></script>
+    <title>Image Predictor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-top">
+            <img class="thumbnail" src="images/armadillo.jpg">
+            <img class="thumbnail" src="images/bird.jpg">
+            <img class="thumbnail" src="images/bird1.jpg">
+            <img class="thumbnail" src="images/bird2.jpg">
+            <img class="thumbnail" src="images/cat.jpg">
+            <img class="thumbnail" src="images/cat1.jpg">
+            <img class="thumbnail" src="images/cow.jpg">
+            <img class="thumbnail" src="images/cow1.jpg">
+            <img class="thumbnail" src="images/cow2.jpg">
+            <img class="thumbnail" src="images/deer.jpg">
+            <img class="thumbnail" src="images/dog.jpg">
+            <img class="thumbnail" src="images/dog1.jpg">
+            <img class="thumbnail" src="images/dog2.jpg">
+            <img class="thumbnail" src="images/dog3.jpg">
+            <img class="thumbnail" src="images/dog4.jpg">
+            <img class="thumbnail" src="images/koala.jpg">
+            <img class="thumbnail" src="images/leopard.jpg">
+            <img class="thumbnail" src="images/mandril.jpg">
+            <img class="thumbnail" src="images/mouse.jpg">
+            <img class="thumbnail" src="images/monkey.jpg">
+            <img class="thumbnail" src="images/monkey1.jpg">
+            <img class="thumbnail" src="images/orangutang.jpg">
+            <img class="thumbnail" src="images/peacock.jpg">
+            <img class="thumbnail" src="images/raccoon.jpg">
+            <img class="thumbnail" src="images/Scorpio.jpg">
+            <img class="thumbnail" src="images/squirrel.jpg">
+            <img class="thumbnail" src="images/tapir.jpg">
+            <img class="thumbnail" src="images/tiger.jpg">
+            <img class="thumbnail" src="images/turkey.jpg">
+            <img class="thumbnail" src="images/zebra.jpg">
+        </div>
+        <div class="container-bottom">
+            <img class="main" src="../images/dog.jpg">
+            <div class="output">
+                <h1>Results</h1>
+                <h1><span id="result">Click the thumbnail above to see the predictor in action ...</span></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html
